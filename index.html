@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Distance Converter</h1>
+
+    <div class="container top1" id="distconv">
+        <p class="instruction1">Type in the distance, choose and select the conversion types and then click the 'Convert Distance' button to convert the distance.</p>
+        <form action="" method="post" id="convert">
+            <input type="number" name="distance" id="distance" placeholder="distance" min="0" step="0.00000000001">
+            <select id="convertfrom" name="convertfrom">
+                <option value="placeholder" style="display: none;">Convert From</option>
+                <option value="mm">Millimeter (mm)</option>
+                <option value="cm">Centimeter (cm)</option>
+                <option value="m">Meter (m)</option>
+                <option value="km">Kilometer (km)</option>
+                <option value="in">Inch (in)</option>
+                <option value="ft">Foot/feet (ft)</option>
+                <option value="yd">Yard (yd)</option>
+                <option value="mi">Mile (mi)</option>
+                <option value="nmi">Nautical Mile (nmi)</option>
+            </select>
+            <select id="convertto" name="convertto">
+                <option value="placeholder" style="display: none;">Convert To</option>
+                <option value="mm">Millimeter (mm)</option>
+                <option value="cm">Centimeter (cm)</option>
+                <option value="m">Meter (m)</option>
+                <option value="km">Kilometer (km)</option>
+                <option value="in">Inch (in)</option>
+                <option value="ft">Foot/feet (ft)</option>
+                <option value="yd">Yard (yd)</option>
+                <option value="mi">Mile (mi)</option>
+                <option value="nmi">Nautical Mile (nmi)</option>
+            </select>
+            <input type="submit" name="convertdist" value="Convert Distance">
+        </form>
+    </div>
+
+    <div class="container bottom1" id="answer">
+        <h2 class="invisible">Answer goes here</h2>
+    </div>
+
+    <br><br><br><hr>
+
+    <h1>Temperature Converter</h1>
+
+    <div class="container top2" id="tempconv">
+        <p class="instruction1">Type in the temperature, choose and select the conversion types and then click the 'Convert Temperature' button to convert the distance.</p>
+        <form action="" method="post" id="tempconvert">
+            <input type="number" name="temp" id="temp" placeholder="Temperature" step="0.00001">
+            <select id="converttempfrom" name="convertfrom">
+                <option value="placeholder" style="display: none;">Convert From</option>
+                <option value="degF">Fahrenheit (&#176;F)</option>
+                <option value="degC">Celsius (&#176;C)</option>
+                <option value="degK">Kelvin (K)</option>
+                <option value="degR">Rankine (&#176;R)</option>
+            </select>
+            <select id="converttempto" name="convertto">
+                <option value="placeholder" style="display: none;">Convert To</option>
+                <option value="degF">Fahrenheit (&#176;F)</option>
+                <option value="degC">Celsius (&#176;C)</option>
+                <option value="degK">Kelvin (K)</option>
+                <option value="degR">Rankine (&#176;R)</option>
+            </select>
+            <input type="submit" name="convertdist" value="Convert Temperature">
+        </form>
+    </div>
+
+    <div class="container bottom2" id="tempanswer">
+        <h2 class="invisible">Answer goes here</h2>
+    </div>
+</body>
+</html>

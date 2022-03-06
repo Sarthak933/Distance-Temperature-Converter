@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    margin: 50px auto 30px auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.top1 {
+    background-color: #f1fbce;
+}
+
+.bottom1 {
+    background-color: #b4b9c8;
+}
+
+.top2 {
+    background-color: #f7d8ba;
+}
+
+.bottom2 {
+    background-color: #b4b9c8;
+}
+
+.instruction1 {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 25px;
+}
+
+input[type="number"], input[type="submit"] {
+    text-transform: uppercase;
+    padding: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+select {
+    text-transform: uppercase;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+option {
+    padding: 20px;
+}
+
+h2 {
+    padding: 20px;
+}
+
+.invisible {
+    color: #b4b9c8;
+}
+
